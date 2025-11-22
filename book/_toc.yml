@@ -1,0 +1,13 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: 01-jupyterlab-intro
+- file: 02-outputs
+- file: 03-gui
+- file: 04-ipynb-format
+- file: 05-jupyter-book
+- file: 06-jupyterlite
+
