@@ -241,6 +241,18 @@ https://github.com/ruoyu0088/scipybook/blob/main/.github/workflows/deploy.yml
 
 ## JupyterLite
 
+- 完全にブラウザ内で実行
+- 最新の **Python 3.13** 対応
+- ファイルはブラウザの **IndexedDB** に保存
+- セキュリティ面も安心
+  * ローカルファイルアクセスができない
+  * データのアップロードができない
+- 遅くない(ネイティブの**6割 ~ 8割**)
+
+--
+
+### WASMで動くPython
+
 * **WASM**：ブラウザ上で高速に動作するバイナリ命令形式
 * **Pyodide**：PythonをWASMに移植したもの
 * **JupyterLite**：Pyodide上で動くJupyterLab環境
